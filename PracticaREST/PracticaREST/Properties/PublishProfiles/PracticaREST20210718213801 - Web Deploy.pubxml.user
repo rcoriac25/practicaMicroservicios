@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfAhJ7drxfUaWuC0CVbD20gAAAAACAAAAAAAQZgAAAAEAACAAAAANvyrJNpePH/OeD/RFkBqOwypR57JS6Yxt6z0EULyz2gAAAAAOgAAAAAIAACAAAADeg21gznhaAJxFqFf1ijUGDWRSg4rFcVeEmrpADQomEIAAAACE20BtpqjeiPrvsu+AgleZu268PkpaYT4hf/8ledY7Qv0I1QqV5bnkiq4cOl5Eopq300nFzjVb3grdNrWkgOQqgRdD/fIpfwUpjwQkZc85U67yrLJSWghLRfte5KQrSo1r69K2nIMH9+N8RoTskWqAy0BsuKoEXnB2xNALZDmMvUAAAAAZO9fu2nnYD/zDbyOY4YCr22ksPIYyqFhih8O5KmM3kn/dB8g23ZdPo2ZTvVOAtTu1EeBpZT7ElDvWfK/6IOY4</EncryptedPassword>
+    <History>True|2021-07-19T03:12:30.1653079Z;True|2021-07-18T22:03:50.7598223-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="PracticaREST.ApplicationDbContext">
+      <Value>Data Source=tcp:practicarestdbserver.database.windows.net,1433%3bInitial Catalog=PracticaREST_db%3bUser Id=rcoriac25%40practicarestdbserver%3bPassword=admin5050/</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

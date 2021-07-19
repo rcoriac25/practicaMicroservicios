@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  practicarest:
+    image: ${DOCKER_REGISTRY-}practicarest
+    build:
+      context: .
+      dockerfile: PracticaREST/Dockerfile
